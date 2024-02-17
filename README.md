@@ -10,7 +10,7 @@ Make sure to install the `keyboard` package using your terminal
 pip install keyboard
 ```
 
-To use the macro, press the SPACE key when you enter your abbrevation. This will replace it with the text your provided in code.
+To use the macro, press the SPACE key after you enter your abbrevation. This will replace it with the text you have provided in code.
 Pressing the `Esc` key will stop the macro.
 
 Note, I have included all the reasons **as it is**, so make sure you are cross-verifying to make sure they can be used in your server.
