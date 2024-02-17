@@ -1,0 +1,25 @@
+import keyboard as ky
+
+rude = "Rude to other users"
+advert = "Advertising"
+inapp = "Inappropriate Message"
+comp_acc = "Compromised account"
+mee6_appeal = " | appeal: https://l.mee6.xyz/appeals"
+mass_mention = "Mass mention"
+racial_remark = "Racism is not allowed"
+scam = "Scam"
+sync = "Ban Sync"
+dm_ad = "Dm advertising is not allowed"
+
+ky.add_abbreviation('ca', f"{comp_acc}")
+ky.add_abbreviation('inapp', f"{inapp}")
+ky.add_abbreviation('rude', f"{rude}")
+ky.add_abbreviation('ad', f"{advert}")
+ky.add_abbreviation('appeal_link', f"{mee6_appeal}")
+ky.add_abbreviation('mm', f"{mass_mention}")
+ky.add_abbreviation('racist', f"{racial_remark}")
+ky.add_abbreviation('mssg_scam', f"{scam}")
+ky.add_abbreviation('ban_sync', f"{sync}")
+ky.add_abbreviation('dm_ad', f"{dm_ad}")
+
+ky.wait('esc')
